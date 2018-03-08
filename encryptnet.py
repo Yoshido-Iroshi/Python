@@ -48,14 +48,19 @@ def  sirsyarif():
 	choice = input(" ==>> Pick-up a choice (1/2/3/4/5): ")
 	if choice == "1":
 		webbrowser.open("www.duckduckgo.com")
+		return 1
 	elif choice == "2":
 		webbrowser.open("www.youtube.com")
+		return 1
 	elif choice == "3":
 		webbrowser.open("www.dropbox.com")
+		return 1
 	elif choice == "4":
 		webbrowser.open("www.yahoo.com")
+		return 1
 	elif choice == "5":
 		webbrowser.open("www.facebook.com")
+		return 1
 	else:
 		print()
 	back_again = input(" Only Accept 1-5. Press 0 to try again : ")
@@ -69,4 +74,5 @@ def  sirsyarif():
 		sirsyarif()
 	else:
 		print(" Press y to back to the options")
+		return 1
 sirsyarif()
